@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KMC - Menu</title>
+    <link rel="icon" href="images/logo.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1><img src="images/logo.png" alt="" /></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="menu.html" class="active">Menu</a></li>
+          <li><a href="avis.html">Avis</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="cart">
+            <a href="authentification/auth.html">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="cart-count">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+
+    <section class="menu-hero">
+      <div class="menu-hero-content">
+        <h2>Notre Menu</h2>
+        <p>
+          Des saveurs irrésistibles, préparées avec passion pour chaque instant
+          de plaisir
+        </p>
+      </div>
+    </section>
+
+    <section class="menu-navigation">
+      <div class="container">
+        <div class="menu-nav-buttons">
+          <a href="#entrees" class="menu-nav-btn active">Menus Complet</a>
+          <a href="#plats" class="menu-nav-btn">Menus</a>
+          <a href="#desserts" class="menu-nav-btn">Desserts</a>
+          <a href="#boissons" class="menu-nav-btn">Rafraîchissements</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="entrees" class="menu-section">
+      <div class="container">
+        <h2>Menus Complet</h2>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img
+                src="images/2890e28ab85c8a087fefe6f866ae437d.jpg"
+                alt="Menu Frit, Pepsi, Shawarma, Poulet"
+              />
+            </div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Menu Shawarma</h3>
+                <div class="menu-item-price">8,500 FCFA</div>
+              </div>
+              <div class="menu-item-description">
+                <p>Shawarma, frites, Pepsi, morceau de poulet</p>
+              </div>
+              <div class="menu-item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(4.5)</span>
+              </div>
+              <button class="btn-add-to-cart">
+                <i class="fas fa-cart-plus"></i> Ajouter
+              </button>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img
+                src="images/132704764_181430000366152_314263612678234615_n.jpg"
+                alt="Menu Frit, Pepsi, Burger, Beignet"
+              />
+            </div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Menu Burger</h3>
+                <div class="menu-item-price">7,200 FCFA</div>
+              </div>
+              <div class="menu-item-description">
+                <p>Burger, frites, Pepsi, beignet</p>
+              </div>
+              <div class="menu-item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>(4.0)</span>
+              </div>
+              <button class="btn-add-to-cart">
+                <i class="fas fa-cart-plus"></i> Ajouter
+              </button>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img
+                src="images/133901135_183728390136313_7242332497085532804_n.jpg"
+                alt="Menu 2 Paquets Frit, Pepsi, Burger, Poulet Pané"
+              />
+            </div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Menu Poulet Pané</h3>
+                <div class="menu-item-price">10,500 FCFA</div>
+              </div>
+              <div class="menu-item-description">
+                <p>2 paquets de frites, Pepsi, burger, poulet pané entier</p>
+              </div>
+              <div class="menu-item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(5.0)</span>
+              </div>
+              <button class="btn-add-to-cart">
+                <i class="fas fa-cart-plus"></i> Ajouter
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="plats" class="menu-section">
+      <div class="container">
+        <h2>Plats Principaux</h2>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img
+                src="images/82e3a6d5625255a2fa334cd88d8bffcb.jpg"
+                alt="Poulet, Frites, Moutarde"
+              />
+            </div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Plat Poulet Frites</h3>
+                <div class="menu-item-price">6,500 FCFA</div>
+              </div>
+              <div class="menu-item-description">
+                <p>2 morceaux de poulet, frites, moutarde</p>
+              </div>
+              <div class="menu-item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(4.7)</span>
+              </div>
+              <button class="btn-add-to-cart">
+                <i class="fas fa-cart-plus"></i> Ajouter
+              </button>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img
+                src="images/Fried Chicken With Rice Png PNG Transparent With Clear Background ID 120363 _ TopPNG.jpg"
+                alt="Riz Sauté, Poulet"
+              />
+            </div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Riz Sauté Poulet</h3>
+                <div class="menu-item-price">7,800 FCFA</div>
+              </div>
+              <div class="menu-item-description">
+                <p>Riz sauté, poulet</p>
+              </div>
+              <div class="menu-item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>(4.2)</span>
+              </div>
+              <button class="btn-add-to-cart">
+                <i class="fas fa-cart-plus"></i> Ajouter
+              </button>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img
+                src="images/Get These New Smoky, Grilled Treats At KFC Outlets Across India - HungryForever Food Blog.jpg"
+                alt="Burger Grillé, 3 Morceaux de Poulet"
+              />
+            </div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Burger Grillé</h3>
+                <div class="menu-item-price">9,500 FCFA</div>
+              </div>
+              <div class="menu-item-description">
+                <p>Burger grillé, 3 morceaux de poulet</p>
+              </div>
+              <div class="menu-item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(4.8)</span>
+              </div>
+              <button class="btn-add-to-cart">
+                <i class="fas fa-cart-plus"></i> Ajouter
+              </button>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img
+                src="images/Elemento 3D Comidas Lanches PNG Transparente.jpg"
+                alt="Hotdog Saucisse Fromage"
+              />
+            </div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Hotdog Saucisse Fromage</h3>
+                <div class="menu-item-price">5,700 FCFA</div>
+              </div>
+              <div class="menu-item-description">
+                <p>Hotdog à la saucisse et au fromage</p>
+              </div>
+              <div class="menu-item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(4.8)</span>
+              </div>
+              <button class="btn-add-to-cart">
+                <i class="fas fa-cart-plus"></i> Ajouter
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="desserts" class="menu-section">
+      <div class="container">
+        <h2>Desserts</h2>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img
+                src="images/Cuban Flan Is The Best Cuban Dessert!.jpg"
+                alt="Petit Gâteau au Miel"
+              />
+            </div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Gâteau au Miel</h3>
+                <div class="menu-item-price">4,500 FCFA</div>
+              </div>
+              <div class="menu-item-description">
+                <p>Petit gâteau au miel avec une fraise</p>
+              </div>
+              <div class="menu-item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(4.6)</span>
+              </div>
+              <button class="btn-add-to-cart">
+                <i class="fas fa-cart-plus"></i> Ajouter
+              </button>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img
+                src="images/Glace aux fraises Light - CuisineThermomix - Recettes spéciales Thermomix.jpg"
+                alt="Boule de Glace à la Fraise"
+              />
+            </div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Glace à la Fraise</h3>
+                <div class="menu-item-price">3,200 FCFA</div>
+              </div>
+              <div class="menu-item-description">
+                <p>Boule de glace à la fraise</p>
+              </div>
+              <div class="menu-item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>(4.3)</span>
+              </div>
+              <button class="btn-add-to-cart">
+                <i class="fas fa-cart-plus"></i> Ajouter
+              </button>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img src="images/Vacherin.jpg" alt="Gâteau à la Vanille" />
+            </div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Gâteau à la Vanille</h3>
+                <div class="menu-item-price">5,000 FCFA</div>
+              </div>
+              <div class="menu-item-description">
+                <p>Rond gâteau à la vanille</p>
+              </div>
+              <div class="menu-item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(4.9)</span>
+              </div>
+              <button class="btn-add-to-cart">
+                <i class="fas fa-cart-plus"></i> Ajouter
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="boissons" class="menu-section">
+      <div class="container">
+        <h2>Rafraîchissements</h2>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img
+                src="images/Latinha de Refrigerante Pepsi PNG Transparente Sem Fundo.jpg"
+                alt="Pepsi en Cannette"
+              />
+            </div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Pepsi</h3>
+                <div class="menu-item-price">1,500 FCFA</div>
+              </div>
+              <div class="menu-item-description">
+                <p>Pepsi en cannette</p>
+              </div>
+              <div class="menu-item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(4.8)</span>
+              </div>
+              <button class="btn-add-to-cart">
+                <i class="fas fa-cart-plus"></i> Ajouter
+              </button>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img
+                src="images/a6ac5aca897e56330c76076dfe27462a.jpg"
+                alt="Coca-Cola"
+              />
+            </div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Coca-Cola</h3>
+                <div class="menu-item-price">1,500 FCFA</div>
+              </div>
+              <div class="menu-item-description">
+                <p>Coca-Cola</p>
+              </div>
+              <div class="menu-item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(4.7)</span>
+              </div>
+              <button class="btn-add-to-cart">
+                <i class="fas fa-cart-plus"></i> Ajouter
+              </button>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img
+                src="images/pineapple juice.jpg"
+                alt="Jus de Fruits Ananas"
+              />
+            </div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Jus d'Ananas</h3>
+                <div class="menu-item-price">2,500 FCFA</div>
+              </div>
+              <div class="menu-item-description">
+                <p>Jus de fruits naturel à l'ananas</p>
+              </div>
+              <div class="menu-item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>(4.0)</span>
+              </div>
+              <button class="btn-add-to-cart">
+                <i class="fas fa-cart-plus"></i> Ajouter
+              </button>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img src="images/nuớc ép cà rốt.jpg" alt="Jus de Carotte" />
+            </div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Jus de Carotte</h3>
+                <div class="menu-item-price">2,500 FCFA</div>
+              </div>
+              <div class="menu-item-description">
+                <p>Jus de fruits naturel à la carotte</p>
+              </div>
+              <div class="menu-item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(4.8)</span>
+              </div>
+              <button class="btn-add-to-cart">
+                <i class="fas fa-cart-plus"></i> Ajouter
+              </button>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img
+                src="images/Open Up a ’Ken of Whoop-ass.jpg"
+                alt="Heineken en Cannette"
+              />
+            </div>
+            <div class="menu-item-info">
+              <div class="menu-item-header">
+                <h3>Heineken</h3>
+                <div class="menu-item-price">2,000 FCFA</div>
+              </div>
+              <div class="menu-item-description">
+                <p>Heineken en cannette</p>
+              </div>
+              <div class="menu-item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(4.8)</span>
+              </div>
+              <button class="btn-add-to-cart">
+                <i class="fas fa-cart-plus"></i> Ajouter
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <button class="btn-clear-cart"><i class="fas fa-trash-can"></i></button>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h2>Le KMC</h2>
+            <p>Le goût de l'excellence à chaque bouchée</p>
+          </div>
+          <div class="footer-links">
+            <h3>Liens rapides</h3>
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="avis.html">Avis</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h3>Contact</h3>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Terminus saint-michel,
+              Douala
+            </p>
+            <p><i class="fas fa-phone"></i> +237 6 56 22 04 28</p>
+            <p><i class="fas fa-envelope"></i> lekmc@gmail.com</p>
+          </div>
+          <div class="footer-social">
+            <h3>Suivez-nous</h3>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Le KMC. Tous droits réservés.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document
+        .querySelector(".menu-toggle")
+        .addEventListener("click", function () {
+          document.querySelector("nav ul").classList.toggle("active");
+        });
+    </script>
+    <script src="js/panier.js"></script>
+  </body>
+</html>

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/logo.png" />
+    <title>KMC - Contact</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1><img src="images/logo.png" alt="" /></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="avis.html">Avis</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li class="cart">
+            <a href="authentification/auth.html">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="cart-count">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+
+    <section class="contact-hero">
+      <div class="contact-hero-content">
+        <h2>Contactez-nous</h2>
+        <p>
+          Réservations, commandes à domicile ou questions - nous sommes à votre
+          écoute
+        </p>
+      </div>
+    </section>
+
+    <section class="contact-info">
+      <div class="container">
+        <div class="contact-cards">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>Adresse</h3>
+            <p>Terminus saint-michel</p>
+            <p>Douala, Cameroun</p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <h3>Téléphone</h3>
+            <p>+237 6 56 22 04 28</p>
+            <a href="tel:+237656220428" class="btn btn-call"
+              >Appeler maintenant</a
+            >
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3>Heures d'ouverture</h3>
+            <p>Lundi - Vendredi: 10h00 - 22h00</p>
+            <p>Samedi - Dimanche: 10h00 - 22h00</p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fab fa-whatsapp"></i>
+            </div>
+            <h3>WhatsApp</h3>
+            <p>Commandez à domicile via WhatsApp</p>
+            <a
+              href="https://wa.me/33123456789?text=Bonjour,%20je%20souhaite%20passer%20une%20commande"
+              class="btn btn-whatsapp"
+              >Commander via WhatsApp</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation">
+      <div class="container">
+        <h2>Réservation</h2>
+        <form id="reservation-form" class="reservation-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Nom complet</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Votre nom"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Votre email"
+              />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Téléphone</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                required
+                placeholder="Votre numéro de téléphone"
+              />
+            </div>
+            <div class="form-group">
+              <label for="guests">Nombre de personnes</label>
+              <select id="guests" name="guests" required>
+                <option value="">Sélectionnez</option>
+                <option value="1">1 personne</option>
+                <option value="2">2 personnes</option>
+                <option value="3">3 personnes</option>
+                <option value="4">4 personnes</option>
+                <option value="5">5 personnes</option>
+                <option value="6">6 personnes</option>
+                <option value="7+">7 personnes ou plus</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Date</label>
+              <input type="date" id="date" name="date" required />
+            </div>
+            <div class="form-group">
+              <label for="time">Heure</label>
+              <select id="time" name="time" required>
+                <option value="">Sélectionnez</option>
+                <option value="12:00">10:00</option>
+                <option value="12:00">10:30</option>
+                <option value="12:00">11:00</option>
+                <option value="12:00">11:30</option>
+                <option value="12:00">12:00</option>
+                <option value="12:30">12:30</option>
+                <option value="13:00">13:00</option>
+                <option value="13:30">13:30</option>
+                <option value="14:00">14:00</option>
+                <option value="14:00">14:30</option>
+                <option value="14:00">15:00</option>
+                <option value="14:00">15:30</option>
+                <option value="14:00">16:00</option>
+                <option value="14:00">16:30</option>
+                <option value="14:00">17:00</option>
+                <option value="14:00">17:30</option>
+                <option value="14:00">18:00</option>
+                <option value="14:00">18:30</option>
+                <option value="19:00">19:00</option>
+                <option value="19:30">19:30</option>
+                <option value="20:00">20:00</option>
+                <option value="20:30">20:30</option>
+                <option value="21:00">21:00</option>
+                <option value="21:30">21:30</option>
+                <option value="22:00">22:00</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message spécial (optionnel)</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Allergies, occasions spéciales, demandes particulières..."
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-reservation">
+            Réserver une table
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section class="location-map">
+      <div class="container">
+        <h2>Notre emplacement</h2>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.9174277575194!2d9.722552574734724!3d4.0372727959364605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10610d0045a77329%3A0x7e3c4325776a7994!2sKMC%20TERMINUS%20SAINT-MICHEL!5e0!3m2!1sfr!2scm!4v1742172702482!5m2!1sfr!2scm"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="directions">
+          <h3>Comment nous trouver</h3>
+          <div class="directions-content">
+            <div class="direction-item">
+              <div class="direction-icon">
+                <i class="fas fa-bus"></i>
+              </div>
+              <div class="direction-text">
+                <h4>Bus</h4>
+                <p>Lignes village, Socatur</p>
+                <p>Arrêt Champs-Élysées</p>
+              </div>
+            </div>
+            <div class="direction-item">
+              <div class="direction-icon">
+                <i class="fas fa-car"></i>
+              </div>
+              <div class="direction-text">
+                <h4>Voiture</h4>
+                <p>Environt 30min de traget</p>
+                <p>Ront point Terminus (Destination)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="qr-code">
+      <div class="container">
+        <h2>Scannez notre QR Code</h2>
+        <div class="qr-content">
+          <div class="qr-image">
+            <img
+              src="images/qrcode.jpg"
+              alt="QR Code du restaurant"
+            />
+          </div>
+          <div class="qr-text">
+            <p>
+              Scannez ce QR code pour accéder rapidement à notre site web sur
+              votre appareil mobile.
+            </p>
+            <p>
+              Partagez-le avec vos amis et votre famille pour leur faire
+              découvrir notre restaurant !
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h2>Le KMC</h2>
+            <p>Le goût de l'excellence à chaque bouchée</p>
+          </div>
+          <div class="footer-links">
+            <h3>Liens rapides</h3>
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="avis.html">Avis</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h3>Contact</h3>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Terminus saint-michel,
+              Douala
+            </p>
+            <p><i class="fas fa-phone"></i> +237 6 56 22 04 28</p>
+            <p><i class="fas fa-envelope"></i> lekmc@gmail.com</p>
+          </div>
+          <div class="footer-social">
+            <h3>Suivez-nous</h3>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Le KMC. Tous droits réservés.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Simple JavaScript for mobile menu toggle
+      document
+        .querySelector(".menu-toggle")
+        .addEventListener("click", function () {
+          document.querySelector("nav ul").classList.toggle("active");
+        });
+
+      // Reservation form submission
+      document
+        .getElementById("reservation-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Get form values
+          const name = document.getElementById("name").value;
+          const email = document.getElementById("email").value;
+          const phone = document.getElementById("phone").value;
+          const guests = document.getElementById("guests").value;
+          const date = document.getElementById("date").value;
+          const time = document.getElementById("time").value;
+
+          // Simple validation
+          if (!name || !email || !phone || !guests || !date || !time) {
+            alert("Veuillez remplir tous les champs obligatoires");
+            return;
+          }
+
+          // Show confirmation
+          alert(
+            `Merci ${name} ! Votre réservation pour ${guests} personne(s) le ${date} à ${time} a été reçue. Nous vous contacterons bientôt pour confirmer.`
+          );
+
+          // Reset form
+          document.getElementById("reservation-form").reset();
+        });
+    </script>
+  </body>
+</html>

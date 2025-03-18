@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KMC - Avis</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1><img src="images/logo.png" alt="" /></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="avis.html" class="active">Avis</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="cart">
+            <a href="authentification/auth.html">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="cart-count">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+
+    <section class="reviews-hero">
+      <div class="reviews-hero-content">
+        <h2>Avis de nos clients</h2>
+        <p>Découvrez ce que nos clients pensent de leur expérience chez nous</p>
+      </div>
+    </section>
+
+    <section class="reviews-summary">
+      <div class="container">
+        <div class="reviews-summary-content">
+          <div class="reviews-average">
+            <h3>Note moyenne</h3>
+            <div class="big-rating">
+              <span class="rating-number">4.7</span>
+              <div class="rating-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="rating-count">Basé sur 128 avis</span>
+            </div>
+          </div>
+          <div class="reviews-breakdown">
+            <h3>Répartition des notes</h3>
+            <div class="rating-bar">
+              <div class="rating-label">5 étoiles</div>
+              <div class="rating-progress">
+                <div class="rating-progress-fill" style="width: 75%"></div>
+              </div>
+              <div class="rating-percent">75%</div>
+            </div>
+            <div class="rating-bar">
+              <div class="rating-label">4 étoiles</div>
+              <div class="rating-progress">
+                <div class="rating-progress-fill" style="width: 20%"></div>
+              </div>
+              <div class="rating-percent">20%</div>
+            </div>
+            <div class="rating-bar">
+              <div class="rating-label">3 étoiles</div>
+              <div class="rating-progress">
+                <div class="rating-progress-fill" style="width: 5%"></div>
+              </div>
+              <div class="rating-percent">5%</div>
+            </div>
+            <div class="rating-bar">
+              <div class="rating-label">2 étoiles</div>
+              <div class="rating-progress">
+                <div class="rating-progress-fill" style="width: 0%"></div>
+              </div>
+              <div class="rating-percent">0%</div>
+            </div>
+            <div class="rating-bar">
+              <div class="rating-label">1 étoile</div>
+              <div class="rating-progress">
+                <div class="rating-progress-fill" style="width: 0%"></div>
+              </div>
+              <div class="rating-percent">0%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews-form">
+      <div class="container">
+        <h2>Partagez votre expérience</h2>
+        <form id="review-form" class="review-form">
+          <div class="form-group">
+            <label for="name">Votre nom (optionnel)</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Entrez votre nom"
+            />
+          </div>
+          <div class="form-group">
+            <label for="rating">Votre note</label>
+            <div class="rating-select">
+              <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5"><i class="fas fa-star"></i></label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4"><i class="fas fa-star"></i></label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3"><i class="fas fa-star"></i></label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2"><i class="fas fa-star"></i></label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1"><i class="fas fa-star"></i></label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="comment">Votre commentaire</label>
+            <textarea
+              id="comment"
+              name="comment"
+              rows="5"
+              placeholder="Partagez votre expérience avec nous"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">Soumettre votre avis</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="reviews-list">
+      <div class="container">
+        <h2>Avis récents</h2>
+        <div class="reviews">
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-name">Bill Gates</div>
+              <div class="review-date">15 mai 2024</div>
+            </div>
+            <div class="review-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="review-content">
+              <p>Un service impeccable et une cuisine innovante.</p>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-name">Elon Musk</div>
+              <div class="review-date">2 mai 2024</div>
+            </div>
+            <div class="review-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="review-content">
+              <p>Une expérience culinaire hors du commun.</p>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-name">Mark Zuckerberg</div>
+              <div class="review-date">18 avril 2024</div>
+            </div>
+            <div class="review-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="review-content">
+              <p>Un cadre agréable et une cuisine raffinée.</p>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-name">Sundar Pichai</div>
+              <div class="review-date">5 avril 2024</div>
+            </div>
+            <div class="review-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="review-content">
+              <p>Très bon restaurant avec une ambiance agréable.</p>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-name">Satya Nadella</div>
+              <div class="review-date">22 mars 2024</div>
+            </div>
+            <div class="review-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="review-content">
+              <p>Une adresse incontournable avec un service exceptionnel.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <iframe src="https://gamma.app/embed/89d6q2uqmc0r60w" style="width: 700px; max-width: 100%; height: 450px" allow="fullscreen" title="KMC - Digitalisation d'un Restaurant"></iframe>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h2>Le KMC</h2>
+            <p>Le goût de l'excellence à chaque bouchée</p>
+          </div>
+          <div class="footer-links">
+            <h3>Liens rapides</h3>
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="avis.html">Avis</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h3>Contact</h3>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Terminus saint-michel,
+              Douala
+            </p>
+            <p><i class="fas fa-phone"></i> +237 6 56 22 04 28</p>
+            <p><i class="fas fa-envelope"></i> lekmc@gmail.com</p>
+          </div>
+          <div class="footer-social">
+            <h3>Suivez-nous</h3>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Le KMC. Tous droits réservés.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document
+        .querySelector(".menu-toggle")
+        .addEventListener("click", function () {
+          document.querySelector("nav ul").classList.toggle("active");
+        });
+    </script>
+  </body>
+</html>
+
+
+<!-- 
+
+  // Menu navigation active state
+// const menuNavBtns = document.querySelectorAll(".menu-nav-btn");
+// menuNavBtns.forEach((btn) => {
+//   btn.addEventListener("click", function () {
+//     menuNavBtns.forEach((b) => b.classList.remove("active"));
+//     this.classList.add("active");
+//   });
+// });
+
+// // Smooth scrolling for menu navigation
+// document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+//   anchor.addEventListener("click", function (e) {
+//     e.preventDefault();
+//     document.querySelector(this.getAttribute("href")).scrollIntoView({
+//       behavior: "smooth",
+//     });
+//   });
+// });
+-->
