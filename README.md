@@ -1,6 +1,6 @@
 # Le KMC
 
-Le KMC est un site web de restaurant de restauration rapide situé à Douala, au Cameroun. Le site propose une expérience culinaire exceptionnelle avec un menu varié comprenant des plats principaux, des desserts et des rafraîchissements.
+Le KMC est un site web de restaurant de restauration rapide situé à Douala que j'ai developper, au Cameroun. Le site propose une expérience culinaire exceptionnelle avec un menu varié comprenant des plats principaux, des desserts et des rafraîchissements.
 
 ## Pages du site
 
@@ -30,5 +30,6 @@ Le KMC est un site web de restaurant de restauration rapide situé à Douala, au
 2. Ouvrez le fichier `index.html` dans votre navigateur pour voir le site en action.
 
 ## Auteur
+Feukouo Feussi Ryan Neuville 👨‍💻 .
 
-Le KMC - Le goût de l'excellence à chaque bouchée.
+Max d'etoile sur le repo github 🙏✅. 
